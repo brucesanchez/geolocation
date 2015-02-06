@@ -1,11 +1,25 @@
-{   
-	"name": "herokugeo",   
-	"description": "My application",   
-	"version": "0.0.1",   
-	"dependencies": {     
-		"express": "3.4.0"   
-	},   
-	"engines": {     
-		"node": ">=0.10.0"   
-	} 
-}
+{
+   "name": "herokugeo",
+   "version": "0.1.2",
+   "description": "A sample Node.js app using Express 4",
+   "main": "index.js",
+   "scripts": {
+     "start": "node index.js"
+   },
+   "dependencies": {
+     "express": "~4.9.x"
+   },
+   "engines": {
+     "node": "0.10.x"
+   },
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/samuelsharaf/geolocation"
+   },
+   "keywords": [
+     "node",
+     "heroku",
+     "express"
+   ],
+   "license": "MIT"
+ }
