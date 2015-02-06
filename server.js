@@ -9,7 +9,7 @@ app.get('/', function(request, response) {
 });
  
 app.get('/home', function(req,res){
-      res.sendfile(__dirname + '/home.html');
+      res.sendfile(__dirname + '/geolocation.html');
 });  
  
 app.listen(app.get('port'), function() {
