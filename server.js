@@ -5,11 +5,11 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/app'));
  
 app.get('/', function(request, response) {
-   response.send('Hello World!');
+   response.sendfile('geolocation.html');
 });
  
-app.get('/home', function(req,res){
-      res.sendfile('geolocation.html');
+app.get('/move', function(req,res){
+      res.sendfile('odometer.html');
 });  
  
 app.listen(app.get('port'), function() {
